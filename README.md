@@ -2,8 +2,9 @@
   Device driver for AT24C16/32/64 EEPROMs.
   Tested using STM32F1/F4 MCUs. Hardware is abstracted using virtual tables and factory functions.
 
-## Dependencies
-  Use files from [STM32-Generic-Files] (https://github.com/greneruiz/STM32-Generic-Files):
+## Dependencies:
+  Use files from [STM32-Generic-Files](https://github.com/greneruiz/STM32-Generic-Files):
+  
     * Makefile
     * stm32_i2c.h, stm32_i2c.c
     * ggg_stm32_helper.h
